@@ -1,0 +1,21 @@
+.img{
+
+   z-index: 2;
+}
+
+.img:hover{
+    -moz-box-shadow: 0 0 5px #222;
+    -webkit-box-shadow: 0 0 5px #222;
+    box-shadow: 0 0 10px #222;
+}
+
+p{
+    font-size: 23px;
+    color: #fff;
+}
+
+.about{
+
+    position: relative;
+    top: 50px;
+}
