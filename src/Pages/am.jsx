@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './am.css'
 const am = ()=>{
 
     return(
         <>
-        <h1>Hey there!</h1>
+        <h1>Ambience</h1>
         </>
 
     )

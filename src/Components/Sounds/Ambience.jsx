@@ -17,7 +17,8 @@ const Ambience = ()=>{
         <Row className='cardRow' >
         <Col md={4} className='cardCol'>
             <Card className="focus mt-2 mb-2">
-            <Card.Img variant="top" src={am} className='cardImg'/>
+            
+            <Link to='/am'><Card.Img variant="top" src={am} className='cardImg'/></Link>
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Ambience</Card.Title>
             </Card.Body>
@@ -42,7 +43,6 @@ const Ambience = ()=>{
         </Col>
         </Row>
         </CardDeck>
-        <a href="/am.jsx">Link</a>
         </div>
     )
 };
