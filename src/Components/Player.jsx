@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
 import PauseCircleFilledIcon from '@material-ui/icons/PauseCircleFilled';
-
+import './Player.css'
   
 const Player = (props)=>{
 
@@ -24,8 +24,8 @@ const Player = (props)=>{
         <>
         
         <audio id='player' src={props.audio} ref={audioRef} />
-        <div onClick={togglePlay}>
-        {playing ?<PauseCircleFilledIcon />: <PlayCircleFilledIcon />}   
+        <div className='playPause' onClick={togglePlay}>
+        {playing ?<PauseCircleFilledIcon fontSize='large' className='button'/>: <PlayCircleFilledIcon fontSize='large' className='button' />}   
         </div>
         <h3>{props.title}</h3>
         </>

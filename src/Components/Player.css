@@ -1,0 +1,23 @@
+h3{
+    display: inline-flex;
+    margin: 8px 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.button:hover{
+
+    cursor: pointer;
+}
+
+.button{
+
+    margin: 10px;
+    transform: scale(1.5);
+}
+
+.playPause{
+
+    display: inline-flex;
+    margin: 10px;
+}

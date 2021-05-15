@@ -9,9 +9,7 @@ import {Route,Link} from 'react-router-dom'
 function App() {
   return (
     <div className='main'>
-    {/* <MyNavbar />
-    <About />
-    <Ambience /> */}
+    
     <Route path='/' exact component={MyNavbar} />
     <Route path='/' exact component={About} />
     <Route path='/' exact component={Ambience} />
