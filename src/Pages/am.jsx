@@ -10,7 +10,8 @@ import bar from '../Sounds/bar.mp3'
 const Am = ()=>{        
     const arr = [{
         title: 'Restaurant Crowd 1',
-        audio: restCrowd
+        audio: restCrowd,
+        
     },
     {
       title: 'city traffic',
