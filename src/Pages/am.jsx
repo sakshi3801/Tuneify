@@ -11,19 +11,19 @@ import PauseCircleFilledIcon from '@material-ui/icons/PauseCircleFilled';
 const Am = ()=>{        
     const arr = [{
         title: 'Restaurant Crowd 1',
-        audio: {restCrowd}
+        audio: restCrowd
     },
     {
       title: 'city traffic',
-      audio: {cityTraffic}
+      audio: cityTraffic
     },
     {
         title: 'Office',
-        audio: {office}
+        audio: office
     },
     {
         title: 'Bar/Pub ambience',
-        audio: {bar}
+        audio: bar
     }
 ]
 
