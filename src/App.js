@@ -1,7 +1,7 @@
 import './App.css';
 import About from './Components/About/About';
 import MyNavbar from './Components/Navbar/MyNavbar.jsx'
-import Ambience from './Components/Sounds/Ambience';
+import Ambience from './Components/Main/Ambience';
 import am from './Pages/am'
 import {Route,Link} from 'react-router-dom'
 

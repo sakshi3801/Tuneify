@@ -4,3 +4,25 @@ h1{
     top: 30px;
     left: 30px;
 }
+
+.part{
+
+    position: relative;
+    top: 40px;
+    left: 30px;
+    color: #fff;
+}
+
+.title{
+
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.playButton{
+
+    color: aqua;
+    width: 20px;
+    height: 30px;
+}
