@@ -24,10 +24,14 @@ const Player = (props)=>{
         <>
         
         <audio id='player' src={props.audio} ref={audioRef} />
+        
         <div className='playPause' onClick={togglePlay}>
         {playing ?<PauseCircleFilledIcon fontSize='large' className='button'/>: <PlayCircleFilledIcon fontSize='large' className='button' />}   
         </div>
+ 
         <h3>{props.title}</h3>
+        <h6>{props.tags}</h6>
+     
         </>
     )
 

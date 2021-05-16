@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './am.css'
 import Player from '../Components/Player'
 import restCrowd from '../Sounds/Restaurant Crowd 1.mp3'
@@ -11,37 +10,24 @@ const Am = ()=>{
     const arr = [{
         title: 'Restaurant Crowd 1',
         audio: restCrowd,
-        
+        tags: 'Ambience, restaurant, crowd'
     },
     {
-      title: 'city traffic',
-      audio: cityTraffic
+      title: 'City traffic',
+      audio: cityTraffic,
+      tags: 'Ambience, city, traffic'
     },
     {
         title: 'Office',
-        audio: office
+        audio: office,
+        tags: 'Ambience, office wallla, phone rings'
     },
     {
         title: 'Bar/Pub ambience',
-        audio: bar
+        audio: bar,
+        tags: 'Ambience, pub, music, dance'
     }
 ]
-
-    const [playing, setPlaying] = useState(false)
-    const audioRef = React.useRef(null)
-
-    const togglePlay = ()=> setPlaying(prev=> !prev)
-
-    React.useEffect(()=>{
-        if(audioRef && audioRef.current)
-        {
-            if(playing)
-            audioRef.current.play()
-            else
-            audioRef.current.pause()
-        }
-    }, [playing])
-    console.log(arr[2].audio)
     return(    
         
         <>
@@ -53,7 +39,7 @@ const Am = ()=>{
             <Player
             title={user.title}
             audio={user.audio}
-            
+            tags={user.tags}
           /></li>
         ))}
         </ol>

@@ -5,6 +5,15 @@ h3{
     bottom: 10px;
 }
 
+h6{
+    display: inline-flex;
+    position: relative;
+    top: 18px;
+    float: right;
+    right: 40px;
+    margin-right: 20px;
+}
+
 .button:hover{
 
     cursor: pointer;

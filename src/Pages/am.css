@@ -2,7 +2,7 @@ h1{
     color: #fff;
     position: relative;
     top: 30px;
-    left: 30px;
+    left: 50px;
 }
 
 .part{
@@ -30,4 +30,10 @@ h1{
 li{
 
     list-style-type: none;
+}
+
+.part{
+
+    position: relative;
+    top: 70px;
 }
