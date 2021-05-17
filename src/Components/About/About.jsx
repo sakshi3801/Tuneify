@@ -19,7 +19,11 @@ const About = ()=>{
                 </Col>
                 <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Tuneify is a background noise generator designed to help you relax, focus, and tune out unpleasant sounds from your environment.
+                <br />Background noise can be distracting, or it can be calming, it all depends on the type of sound. The gentle patter of rain against the window or the chirping of birds are sounds that many people find relaxing.
+                While other types of noise like the hammering from the building site across the street, the stomping of the neighbors can be distracting and irritating.
+                <br /><br />Tuneify helps you ignore bothersome noise by playing custom ambient sounds to suit your environment.
+                </p>
               </Row>
             </Col>
             </Row>

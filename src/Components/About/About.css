@@ -1,6 +1,8 @@
 .img{
 
    z-index: 2;
+   height: 400px;
+
 }
 
 .img:hover{
@@ -10,7 +12,7 @@
 }
 
 p{
-    font-size: 23px;
+    font-size: 21px;
     color: #fff;
 }
 

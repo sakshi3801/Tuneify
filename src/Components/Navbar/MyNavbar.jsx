@@ -14,8 +14,8 @@ const MyNavbar = ()=>{
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link className='navlink' href="">About</Nav.Link>
-      <Nav.Link className='navlink' href="">Sound Effects</Nav.Link>
+      <Nav.Link className='navlink' href="C:\Users\HP-PC\tuneify\src\Components\About\About.jsx">About</Nav.Link>
+      <Nav.Link className='navlink' href="C:\Users\HP-PC\tuneify\src\Components\Main\Ambience.jsx">Sound Effects</Nav.Link>
 
     </Nav>
   </Navbar.Collapse>

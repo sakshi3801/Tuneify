@@ -5,7 +5,7 @@ import radhaKrishna from '../Sounds/radhaKrishna.mp3'
 
 
 
-const We = ()=>{        
+const Flu = ()=>{        
     const arr = [{
         title: 'Bombay Theme',
         audio: bombay,
@@ -20,7 +20,7 @@ const We = ()=>{
     return(    
         
         <>
-        <h1>Mythology</h1>
+        <h1>Flute</h1>
         <div className='part'>
             <ol>
             {arr.map((user) => (
@@ -39,4 +39,4 @@ const We = ()=>{
     )
 }
 
-export default We;
+export default Flu;

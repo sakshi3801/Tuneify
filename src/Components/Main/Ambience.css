@@ -6,16 +6,18 @@
     border: 0px;
     border-color: #151618;
 
+
 }
 .cardImg:hover{
     cursor: pointer;
 }
 
-.cardRow{
+#cardRow{
 
     background-color: #151618;
     border: 0px;
     border-color: #151618;
+    padding-bottom: 40px;
 }
 
 .cardCol{
@@ -44,4 +46,15 @@
     border: 0px;
     border-color: #151618;
 
+}
+
+#section{
+
+    border: 0px;
+    border-radius: 10px;
+}
+
+#cardDeck{
+
+    margin: 140px 10px;
 }
