@@ -2,7 +2,9 @@ import './am.css'
 import Player from '../Components/Player'
 import birds from '../Sounds/birds.mp3'
 import insect from '../Sounds/insect.mp3'
-
+import forest from '../Sounds/forest.mp3'
+import waterfall from '../Sounds/waterfall.mp3'
+import african from '../Sounds/african.mp3'
 
 const Na = ()=>{        
     const arr = [{
@@ -14,7 +16,22 @@ const Na = ()=>{
       title: 'Summer rural night ambience',
       audio: insect,
       tags: 'Nature, Insects, Frogs, Night'
-    }
+    },
+    {
+      title: 'Ambience by river',
+      audio: forest,
+      tags: 'Nature, River, Birds, Forest'
+    },
+    {
+        title: 'Small Waterfall, birds singing',
+        audio: waterfall,
+        tags: 'Nature, Waterfall, Birds, Life'
+      },
+      {
+          title: 'African bush ambience by river',
+          audio: african,
+          tags: 'Nature, River, Birds, Life'
+        }
 ]
     return(    
         

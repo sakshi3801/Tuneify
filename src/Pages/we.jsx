@@ -4,7 +4,7 @@ import rain from '../Sounds/rain.mp3'
 import thunder from '../Sounds/thunder.mp3'
 import wind from '../Sounds/wind.mp3'
 import leaf from '../Sounds/leaf rain.mp3'
-
+import cold from '../Sounds/cold.mp3'
 
 const We = ()=>{        
     const arr = [{
@@ -26,6 +26,11 @@ const We = ()=>{
         title: 'Rain falling on leafy trees',
         audio: leaf,
         tags: 'Weather, rain, trees, nature'
+    },
+    {
+        title: 'Cold icy howling wind',
+        audio: cold,
+        tags: 'Weather, wind, cold'
     }
 ]
     return(    

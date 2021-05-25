@@ -1,37 +1,48 @@
 import './am.css'
 import Player from '../Components/Player'
-import ganesh from '../Sounds/ganesh.mp3'
-import krishna from '../Sounds/aarti kunj bihari ki.wav'
-import hanuman from '../Sounds/hanuman.mp3'
-import mata from '../Sounds/mata.mp3'
-
+import tereLiye from '../Sounds/tere liye.mp3'
+import chandChupa from '../Sounds/chand chupa.mp3'
+import ekDin from '../Sounds/ek din.mp3'
+import aankhoMein from '../Sounds/aankho mein teri.mp3'
+import ekAjnabee from '../Sounds/ek ajnabee.mp3'
+import pehlaNasha from '../Sounds/pehla nasha.mp3'
 
 const We = ()=>{        
     const arr = [{
-        title: 'Ganesh Aarti',
-        audio: ganesh,
-        tags: 'Mythology, God, Ganesha, Hindu'
+        title: 'Tere Liye',
+        audio: tereLiye,
+        tags: 'Romance, Veer-Zaara, Lata Mangeshkar'
     },
     {
-      title: 'Aarti Kunj Bihari Ki',
-      audio: krishna,
-      tags: 'Mythology, God, Krishna, Hindu'
+      title: 'Chand Chupa Badal Mein',
+      audio: chandChupa,
+      tags: 'Romance, Udit Narayan, Alka Yagnik'
     },
     {
-        title: 'Hanuman Chalisa',
-        audio: hanuman,
-        tags: 'Mythology, God, Hanuman, Hindu'
+        title: 'Ek Din Aap Yun',
+        audio: ekDin,
+        tags: 'Romance, Kumar Sanu, Alka Yagnik'
     },
     {
-        title: 'Mata Rani Aarti',
-        audio: mata,
-        tags: 'Mythology, God, Maata Rani, Hindu'
-    }
+        title: 'Aankho Mein Teri',
+        audio: aankhoMein,
+        tags: 'Romance, Om Shanti Om, K.K.'
+    },
+    {
+        title: 'Ek Ajnabee Haseena Se',
+        audio: ekAjnabee,
+        tags: 'Romance, Kishore Kumar, Evergreen'
+      },
+      {
+          title: 'Pehla Nasha',
+          audio: pehlaNasha,
+          tags: 'Romance, Udit Narayan, Sadhana Sargam, 90s'
+      }
 ]
     return(    
         
         <>
-        <h1>Mythology</h1>
+        <h1>Romance</h1>
         <div className='part'>
             <ol>
             {arr.map((user) => (

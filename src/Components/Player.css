@@ -30,3 +30,8 @@ h6{
     display: inline-flex;
     margin: 10px;
 }
+
+.pBar{
+
+    width: 40%;
+}

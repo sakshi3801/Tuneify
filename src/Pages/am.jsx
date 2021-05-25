@@ -4,8 +4,8 @@ import restCrowd from '../Sounds/Restaurant Crowd 1.mp3'
 import cityTraffic from '../Sounds/City traffic.mp3'
 import office from '../Sounds/Office.mp3'
 import bar from '../Sounds/bar.mp3'
-
-
+import festival from '../Sounds/festival.mp3'
+import park from '../Sounds/park.mp3'
 const Am = ()=>{        
     const arr = [{
         title: 'Restaurant Crowd 1',
@@ -26,7 +26,18 @@ const Am = ()=>{
         title: 'Bar/Pub ambience',
         audio: bar,
         tags: 'Ambience, pub, music, dance'
+    },
+    {
+      title: 'Festival Crowd',
+      audio: festival,
+      tags: 'Ambience, city, festival'
+    },
+    {
+        title: "Children's Playground",
+        audio: park,
+        tags: 'Ambience, children, playground, lively'
     }
+
 ]
     return(    
         
