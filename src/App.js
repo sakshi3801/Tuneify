@@ -8,7 +8,7 @@ import my from './Pages/my'
 import flu from './Pages/flu'
 import na from './Pages/na'
 import wav from './Pages/wav'
-import {Route/*,Link*/} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
     <Route path='/na' exact component={na} />
     <Route path='/wav' exact component={MyNavbar} />
     <Route path='/wav' exact component={wav} />
+    
     </div>
   );
 }
