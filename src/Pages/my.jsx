@@ -1,48 +1,37 @@
 import './am.css'
 import Player from '../Components/Player'
-import tereLiye from '../Sounds/tere liye.mp3'
-import chandChupa from '../Sounds/chand chupa.mp3'
-import ekDin from '../Sounds/ek din.mp3'
-import aankhoMein from '../Sounds/aankho mein teri.mp3'
-import ekAjnabee from '../Sounds/ek ajnabee.mp3'
-import pehlaNasha from '../Sounds/pehla nasha.mp3'
+import coffee from '../Sounds/coffee.mp3'
+import coral from '../Sounds/coral.mp3'
+import stardust from '../Sounds/stardust.mp3'
+import begins from '../Sounds/begins.mp3'
+
 
 const We = ()=>{        
     const arr = [{
-        title: 'Tere Liye',
-        audio: tereLiye,
-        tags: 'Romance, Veer-Zaara, Lata Mangeshkar'
+        title: 'Bedtime after a coffee',
+        audio: coffee,
+        tags: 'Lofi, chill, coffee'
     },
     {
-      title: 'Chand Chupa Badal Mein',
-      audio: chandChupa,
-      tags: 'Romance, Udit Narayan, Alka Yagnik'
+      title: 'Coral',
+      audio: coral,
+      tags: 'Lofi, chill, relaxing'
     },
     {
-        title: 'Ek Din Aap Yun',
-        audio: ekDin,
-        tags: 'Romance, Kumar Sanu, Alka Yagnik'
+        title: 'Stardust',
+        audio: stardust,
+        tags: 'Lofi, chill, relaxing'
     },
     {
-        title: 'Aankho Mein Teri',
-        audio: aankhoMein,
-        tags: 'Romance, Om Shanti Om, K.K.'
-    },
-    {
-        title: 'Ek Ajnabee Haseena Se',
-        audio: ekAjnabee,
-        tags: 'Romance, Kishore Kumar, Evergreen'
-      },
-      {
-          title: 'Pehla Nasha',
-          audio: pehlaNasha,
-          tags: 'Romance, Udit Narayan, Sadhana Sargam, 90s'
-      }
+        title: 'And so it begins',
+        audio: begins,
+        tags: 'Lofi, chill, calm'
+    }
 ]
     return(    
         
         <>
-        <h1>Romance</h1>
+        <h1>Lofi chill</h1>
         <div className='part'>
             <ol>
             {arr.map((user) => (

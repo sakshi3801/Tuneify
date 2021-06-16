@@ -4,7 +4,7 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import am from '../../Images/am.webp'
 import we from '../../Images/we2.webp'
 import wav from '../../Images/wav6.webp'
-import my from '../../Images/rom5.webp'
+import lofi from '../../Images/lofi.webp'
 import flu from '../../Images/flu.webp'
 import na from '../../Images/na1.webp'
 import './Ambience.css'
@@ -67,9 +67,9 @@ const Ambience = ()=>{
         <Col md={4} className='cardCol'>
             <Card className="focus mt-2 mb-2" id='section'>
             
-            <Link to='/my'><Card.Img variant="top" src={my} className='cardImg'/></Link>
+            <Link to='/my'><Card.Img variant="top" src={lofi} className='cardImg'/></Link>
             <Card.Body className='cardBody'>
-                <Card.Title className="title text-center  card-title">Romance</Card.Title>
+                <Card.Title className="title text-center  card-title">Lofi Chill</Card.Title>
             </Card.Body>
             </Card>
         </Col>
